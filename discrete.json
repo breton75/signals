@@ -1,4 +1,6 @@
-[
+{
+  "signals":
+  [
     {"name": "VDR001", "id": 1,  "device": 1, "storages": [1], "type": "GEN" , "timeout": 3000, "timeout_value": -1, "timeout_signal_id": -1, "params": {"group":1, "word": 0,  "tag": "400_1_XA_042"},     "description": "Насос Рулевого Управления P1 Неисправность Питания"},
     {"name": "VDR002", "id": 2,  "device": 1, "storages": [1], "type": "GEN" , "timeout": 3000, "timeout_value": -1, "timeout_signal_id": -1, "params": {"group":1, "word": 1,  "tag": "400_1_XA_043"},     "description": "Неисправность Фазы Насоса Рулевого Управления P1"},
     {"name": "VDR003", "id": 3,  "device": 1, "storages": [1], "type": "GEN" , "timeout": 3000, "timeout_value": -1, "timeout_signal_id": -1, "params": {"group":1, "word": 2,  "tag": "400_1_XA_054"},     "description": "Серводвигатель Рулевого Управления P1 Сбой питания"},
@@ -55,4 +57,5 @@
     {"name": "VDR054", "id": 54, "device": 1, "storages": [1], "type": "GEN" , "timeout": 3000, "timeout_value": -1, "timeout_signal_id": -1, "params": {"group":4, "word": 5,  "tag": "400_2_PAL_079"},    "description": "Тормозная Система рулевого управления Давление низкое"},
     {"name": "VDR055", "id": 55, "device": 1, "storages": [1], "type": "GEN" , "timeout": 3000, "timeout_value": -1, "timeout_signal_id": -1, "params": {"group":4, "word": 6,  "tag": "400_2_XA_056"},     "description": "Неисправность Гидравлического Замка Насоса Рулевого Управления P1"},
     {"name": "VDR056", "id": 56, "device": 1, "storages": [1], "type": "GEN" , "timeout": 3000, "timeout_value": -1, "timeout_signal_id": -1, "params": {"group":4, "word": 7,  "tag": "400_2_XA_071"},     "description": "Неисправность Гидравлического Замка Насоса Рулевого Управления P2"}
-]
+  ]
+}
